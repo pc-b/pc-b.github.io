@@ -8,6 +8,11 @@ body {
     src: url('fonts/Tweaky.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'frag'; /*a name to be used later*/
+    src: url('fonts/Fragmentcore.otf'); /*URL to font*/
+}
+
 @keyframes animatedBackground {
     from {
       background-position: 0 0;
@@ -29,22 +34,17 @@ h1 {
     font-family: 'dpunk';
     font-size: 120px;
     margin-bottom: 1px;
-}
-p {
-    text-align: left;
-    color: white;
-    font-family: 'dpunk';
-    font-size: 30px;
-    border: 20px black;
-    padding: 50px;
-    margin: 20px;
-    
+    text-decoration: underline
 }
 
 #links {
     text-align: left;
     font-size: 100px;
-    margin-top: 5px;
+    line-height: 1px;
+    height: 2px;
+    margin-left: 1.3%;
+    font-family:  'frag';
+
     
 }
 
