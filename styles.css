@@ -1,0 +1,80 @@
+body {
+    background-image: url(media/skulls\ and\ the2.jpg);
+    animation: animatedBackground 30s infinite linear;
+}
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 10px 10px 3px black;
+}
+p {
+    text-align: center;
+    color: white;
+    
+}
+
+#links {
+    text-align: center;
+    
+}
+
+a {
+    color: white;
+    font-size: xx-large;
+    background: #111;
+    background-clip: border-box;
+}
+
+.gallery {
+    text-align: center;
+}
+.gallery img {
+    max-width: 20%;
+    height: auto;
+
+}
+
+
+
+
+  
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    filter: opacity(33%);
+    transition: 4s opacity;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    filter: grayscale(100%);
+ }
+ 

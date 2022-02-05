@@ -1,0 +1,28 @@
+body {
+    background-image: url(../media/weird\ ass\ painting\ thing.jpg);
+    animation: animatedBackground 17s infinite linear;
+}
+
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+.back {
+    font-size: x-large;
+    background: black;
+    background-clip: border-box;
+}
+
+.gallery {
+    text-align: center;
+}
+.gallery img {
+    max-width: 20%;
+    height: auto;
+
+}
