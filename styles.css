@@ -3,6 +3,11 @@ body {
     animation: animatedBackground 30s infinite linear;
 }
 
+@font-face {
+    font-family: 'dpunk'; /*a name to be used later*/
+    src: url('fonts/Tweaky.ttf'); /*URL to font*/
+}
+
 @keyframes animatedBackground {
     from {
       background-position: 0 0;
@@ -17,23 +22,29 @@ body {
     min-height: 100%;
   }
 
-.text {
-    text-align: center;
-}
-
 h1 {
-    color: red;
-    text-align: center;
+    color: white;
+    text-align: left;
     text-shadow: 10px 10px 3px black;
+    font-family: 'dpunk';
+    font-size: 120px;
+    margin-bottom: 1px;
 }
 p {
-    text-align: center;
+    text-align: left;
     color: white;
+    font-family: 'dpunk';
+    font-size: 30px;
+    border: 20px black;
+    padding: 50px;
+    margin: 20px;
     
 }
 
 #links {
-    text-align: center;
+    text-align: left;
+    font-size: 100px;
+    margin-top: 5px;
     
 }
 
